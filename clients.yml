@@ -8,6 +8,8 @@ spring:
       discovery:
         service-name: ${spring.application.name}
         hostname: 127.0.0.1
+    config:
+      fall-fast: true
 
 spring:
   rabbitmq:
